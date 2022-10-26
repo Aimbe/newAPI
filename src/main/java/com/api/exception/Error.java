@@ -1,4 +1,4 @@
-package com.packt.modern.api.exception;
+package com.api.exception;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import java.time.Instant;

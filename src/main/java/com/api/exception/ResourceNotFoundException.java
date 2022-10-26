@@ -1,4 +1,4 @@
-package com.packt.modern.api.exception;
+package com.api.exception;
 
 /**
  * @author : github.com/sharmasourabh

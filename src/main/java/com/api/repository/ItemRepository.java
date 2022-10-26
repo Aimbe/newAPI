@@ -1,4 +1,4 @@
-package com.packt.modern.api.repository;
+package com.api.repository;
 
 import com.packt.modern.api.entity.ItemEntity;
 import java.util.List;

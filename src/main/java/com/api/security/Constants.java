@@ -1,9 +1,6 @@
-package com.packt.modern.api.security;
+package com.api.security;
 
-/**
- * @author : github.com/sharmasourabh
- * @project : Chapter08 - Modern API Development with Spring and Spring Boot
- **/
+
 public class Constants {
   public static final String ENCODER_ID = "bcrypt";
   public static final String API_URL_PREFIX = "/api/v1/**";

@@ -1,4 +1,4 @@
-package com.packt.modern.api.exception;
+package com.api.exception;
 
 import static com.packt.modern.api.security.Constants.TOKEN_URL;
 
