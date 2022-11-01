@@ -1,4 +1,4 @@
-package com.packt.modern.api.entity;
+package com.api.entity;
 
 import java.math.BigDecimal;
 import java.util.List;
@@ -14,10 +14,7 @@ import javax.persistence.ManyToMany;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
-/**
- * @author : github.com/sharmasourabh
- * @project : Chapter08 - Modern API Development with Spring and Spring Boot
- **/
+
 @Entity
 @Table(name = "item")
 public class ItemEntity {
