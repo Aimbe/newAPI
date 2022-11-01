@@ -4,14 +4,7 @@ import com.fasterxml.jackson.annotation.JsonFormat;
 import java.time.Instant;
 import org.apache.logging.log4j.util.Strings;
 
-/**
- * Error
- * <p>
- * Complex type that contains error details for a REST API calls.
- *
- * @author : github.com/sharmasourabh
- * @project : Chapter08 - Modern API Development with Spring and Spring Boot
- **/
+
 public class Error {
 
   private static final long serialVersionUID = 1L;

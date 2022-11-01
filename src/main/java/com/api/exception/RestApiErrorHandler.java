@@ -28,8 +28,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.server.MethodNotAllowedException;
 
 /**
- * @author : github.com/sharmasourabh
- * @project : Chapter08 - Modern API Development with Spring and Spring Boot
+ErrorHandler 쪽 구조 참고
  **/
 @ControllerAdvice
 public class RestApiErrorHandler {
