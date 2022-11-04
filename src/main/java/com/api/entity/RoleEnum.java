@@ -16,6 +16,7 @@ public enum RoleEnum implements GrantedAuthority {
   CSR(Const.CSR);
 
   private String authority;
+  private String token;
 
   RoleEnum(String authority) {
     this.authority = authority;
