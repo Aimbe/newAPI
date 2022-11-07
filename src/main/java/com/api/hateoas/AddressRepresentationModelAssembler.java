@@ -20,19 +20,12 @@ import org.springframework.stereotype.Component;
 public class AddressRepresentationModelAssembler extends
     RepresentationModelAssemblerSupport<AddressEntity, Address> {
 
-  /**
-   * Creates a new {@link RepresentationModelAssemblerSupport} using the given controller class and
-   * resource type.
-   */
+
   public AddressRepresentationModelAssembler() {
     super(AddressController.class, Address.class);
   }
 
-  /**
-   * Coverts the Address entity to resource
-   *
-   * @param entity
-   */
+
   @Override
   public Address toModel(AddressEntity entity) {
     Address resource = createModelWithId(entity.getId(), entity);
