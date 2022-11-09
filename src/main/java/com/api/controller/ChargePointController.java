@@ -16,6 +16,7 @@ public class ChargePointController {
     }
 
 
+    //ResponseEntity param 값 정의.
     public ResponseEntity<ChargePointEntity> createChargePoint(){
 
         return status(HttpStatus.CREATED).body(service.createChargePoint().map(assembler::toModel).get());
