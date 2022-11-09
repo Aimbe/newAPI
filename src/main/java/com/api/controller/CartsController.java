@@ -31,6 +31,8 @@ public class CartsController implements CartApi {
     this.assembler = assembler;
   }
 
+
+  //오버라이드 객체 찾기
   @Override
   public ResponseEntity<List<Item>> addCartItemsByCustomerId(String customerId, @Valid Item item) {
     log.info("Request for customer ID: {}\nItem: {}", customerId, item);
