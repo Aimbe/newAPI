@@ -21,8 +21,10 @@ public class ChargePointController {
 
         return status(HttpStatus.CREATED).body(service.createChargePoint().map(assembler::toModel).get());
 
+    }
 
-
+    public ResponseEntity<ChargePointEntity> updateChargePoint(){
+        return status(HttpStatus.CREATED).body(service.updateChargePoint().map());
     }
 
 }
