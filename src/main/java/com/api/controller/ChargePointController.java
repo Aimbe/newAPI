@@ -14,17 +14,19 @@ public class ChargePointController {
     public ChargePointController(ChargePointService chargePointService){
         this.service = chargePointService;
     }
-
-
     //ResponseEntity param 값 정의.
     public ResponseEntity<ChargePointEntity> createChargePoint(){
 
         return status(HttpStatus.CREATED).body(service.createChargePoint().map(assembler::toModel).get());
 
     }
-
     public ResponseEntity<ChargePointEntity> updateChargePoint(){
         return status(HttpStatus.CREATED).body(service.updateChargePoint().map());
+    }
+
+    public ResponseEntity<ChargePointEntity> getChargePointById(){
+        return status(HttpStatus.CREATED).body();
+
     }
 
 }
