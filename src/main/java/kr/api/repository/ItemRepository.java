@@ -1,6 +1,6 @@
 package kr.api.repository;
 
-import com.packt.modern.api.entity.ItemEntity;
+import kr.api.entity.ItemEntity;
 import java.util.List;
 import java.util.UUID;
 import org.springframework.data.jpa.repository.Modifying;

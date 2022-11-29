@@ -1,15 +1,14 @@
 package kr.api.service;
 
 import kr.api.entity.OrderEntity;
-import com.packt.modern.api.model.NewOrder;
+import kr.api.model.NewOrder;
 import java.util.Optional;
 import javax.validation.Valid;
 import javax.validation.constraints.NotNull;
 
-/**
- * @author : github.com/sharmasourabh
- * @project : Chapter08 - Modern API Development with Spring and Spring Boot
- **/
+/*
+* swagger 경로 => generated
+* */
 public interface OrderService {
 
   public Optional<OrderEntity> addOrder(@Valid NewOrder newOrder);

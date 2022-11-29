@@ -7,10 +7,9 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.query.Param;
 
-/**
- * @author : github.com/sharmasourabh
- * @project : Chapter08 - Modern API Development with Spring and Spring Boot
- **/
+/*
+* swagger 경로 => generated
+* */
 public interface CartRepository extends CrudRepository<CartEntity, UUID> {
   @Query("select c from CartEntity c join c.user u where u.id = :customerId")
   Optional<CartEntity> findByCustomerId(@Param("customerId") UUID customerId);

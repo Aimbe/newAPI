@@ -6,8 +6,8 @@ import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
 
 import kr.api.controller.ProductController;
 import kr.api.entity.ProductEntity;
-import com.packt.modern.api.model.Product;
-import com.packt.modern.api.model.Tag;
+import kr.api.model.Product;
+import kr.api.model.Tag;
 import java.util.Collections;
 import java.util.List;
 import java.util.Objects;
@@ -16,10 +16,9 @@ import org.springframework.beans.BeanUtils;
 import org.springframework.hateoas.server.mvc.RepresentationModelAssemblerSupport;
 import org.springframework.stereotype.Component;
 
-/**
- * @author : github.com/sharmasourabh
- * @project : Chapter08 - Modern API Development with Spring and Spring Boot
- **/
+/*
+* swagger 경로 => generated
+* */
 @Component
 public class ProductRepresentationModelAssembler extends
     RepresentationModelAssemblerSupport<ProductEntity, Product> {

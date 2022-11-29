@@ -1,11 +1,11 @@
 package kr.api.security.UNUSED;
 
-import static com.packt.modern.api.security.Constants.TOKEN_URL;
+import static kr.api.security.Constants.TOKEN_URL;
 import static org.springframework.http.MediaType.APPLICATION_JSON_VALUE;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.packt.modern.api.model.SignInReq;
-import com.packt.modern.api.model.SignedInUser;
+import kr.api.model.SignInReq;
+import kr.api.model.SignedInUser;
 import kr.api.security.JwtManager;
 import java.io.IOException;
 import java.io.InputStream;
@@ -24,10 +24,9 @@ import org.springframework.security.core.userdetails.User;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 import org.springframework.web.server.MethodNotAllowedException;
 
-/**
- * @author : github.com/sharmasourabh
- * @project : Chapter08 - Modern API Development with Spring and Spring Boot
- **/
+/*
+* swagger 경로 => generated
+* */
 public class LoginFilter extends UsernamePasswordAuthenticationFilter {
 
   private final AuthenticationManager authenticationManager;

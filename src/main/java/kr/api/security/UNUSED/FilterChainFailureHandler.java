@@ -14,10 +14,10 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
 import org.springframework.web.servlet.HandlerExceptionResolver;
 
-/**
- * @author : github.com/sharmasourabh
- * @project : Chapter08 - Modern API Development with Spring and Spring Boot
- **/
+/*
+* swagger 경로 => generated
+* */
+
 @Component
 public class FilterChainFailureHandler extends OncePerRequestFilter {
 

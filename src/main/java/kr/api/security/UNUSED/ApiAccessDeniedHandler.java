@@ -5,9 +5,9 @@ import static org.springframework.http.MediaType.APPLICATION_JSON_VALUE;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
-import com.packt.modern.api.exception.Error;
-import com.packt.modern.api.exception.ErrorCode;
-import com.packt.modern.api.exception.ErrorUtils;
+import kr.api.exception.Error;
+import kr.api.exception.ErrorCode;
+import kr.api.exception.ErrorUtils;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.time.Instant;
@@ -19,10 +19,9 @@ import org.springframework.security.access.AccessDeniedException;
 import org.springframework.security.web.access.AccessDeniedHandler;
 import org.springframework.stereotype.Component;
 
-/**
- * @author : github.com/sharmasourabh
- * @project : Chapter08 - Modern API Development with Spring and Spring Boot
- **/
+/*
+* swagger 경로 => generated
+* */
 @Component
 public class ApiAccessDeniedHandler implements AccessDeniedHandler {
 

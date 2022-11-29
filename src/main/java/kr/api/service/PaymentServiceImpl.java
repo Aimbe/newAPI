@@ -1,7 +1,7 @@
 package kr.api.service;
 
 import kr.api.entity.AuthorizationEntity;
-import com.packt.modern.api.model.PaymentReq;
+import kr.api.model.PaymentReq;
 import kr.api.repository.OrderRepository;
 import kr.api.repository.PaymentRepository;
 import java.util.Optional;
@@ -10,10 +10,9 @@ import javax.validation.Valid;
 import javax.validation.constraints.NotNull;
 import org.springframework.stereotype.Service;
 
-/**
- * @author : github.com/sharmasourabh
- * @project : Chapter08 - Modern API Development with Spring and Spring Boot
- **/
+/*
+* swagger 경로 => generated
+* */
 @Service
 public class PaymentServiceImpl implements PaymentService {
 

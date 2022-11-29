@@ -1,18 +1,17 @@
 package kr.api.controller;
 
-import com.packt.modern.api.ShipmentApi;
+import kr.api.ShipmentApi;
 import kr.api.hateoas.ShipmentRepresentationModelAssembler;
-import com.packt.modern.api.model.Shipment;
+import kr.api.model.Shipment;
 import kr.api.service.ShipmentService;
 import java.util.List;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RestController;
 
-/**
- * @author : github.com/sharmasourabh
- * @project : Chapter08 - Modern API Development with Spring and Spring Boot
- **/
+/*
+* swagger 경로 => generated
+* */
 @RestController
 public class ShipmentController implements ShipmentApi {
 

@@ -5,9 +5,8 @@ import java.util.UUID;
 import org.springframework.data.repository.CrudRepository;
 
 
-/**
- * @author : github.com/sharmasourabh
- * @project : Chapter08 - Modern API Development with Spring and Spring Boot
- **/
+/*
+* swagger 경로 => generated
+* */
 public interface TagRepository extends CrudRepository<TagEntity, UUID> {
 }

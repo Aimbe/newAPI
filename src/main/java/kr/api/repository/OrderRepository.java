@@ -7,10 +7,9 @@ import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
-/**
- * @author : github.com/sharmasourabh
- * @project : Chapter08 - Modern API Development with Spring and Spring Boot
- **/
+/*
+* swagger 경로 => generated
+* */
 @Repository
 public interface OrderRepository extends CrudRepository<OrderEntity, UUID>, OrderRepositoryExt {
 

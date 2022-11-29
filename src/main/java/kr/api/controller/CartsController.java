@@ -3,10 +3,10 @@ package kr.api.controller;
 import static org.springframework.http.ResponseEntity.accepted;
 import static org.springframework.http.ResponseEntity.ok;
 
-import com.packt.modern.api.CartApi;
+import kr.api.CartApi;
 import kr.api.hateoas.CartRepresentationModelAssembler;
-import com.packt.modern.api.model.Cart;
-import com.packt.modern.api.model.Item;
+import kr.api.model.Cart;
+import kr.api.model.Item;
 import kr.api.service.CartService;
 import java.util.List;
 import javax.validation.Valid;
@@ -16,10 +16,9 @@ import org.slf4j.LoggerFactory;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RestController;
 
-/**
- * @author : github.com/sharmasourabh
- * @project : Chapter08 - Modern API Development with Spring and Spring Boot
- **/
+/*
+* swagger 경로 => generated
+* */
 @RestController
 public class CartsController implements CartApi {
 

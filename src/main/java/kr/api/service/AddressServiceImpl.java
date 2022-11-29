@@ -1,9 +1,9 @@
 package kr.api.service;
 
 import kr.api.entity.AddressEntity;
-import com.packt.modern.api.exception.ResourceNotFoundException;
-import com.packt.modern.api.model.AddAddressReq;
-import com.packt.modern.api.repository.AddressRepository;
+import kr.api.exception.ResourceNotFoundException;
+import kr.api.model.AddAddressReq;
+import kr.api.repository.AddressRepository;
 import java.util.Optional;
 import java.util.UUID;
 import org.springframework.stereotype.Service;

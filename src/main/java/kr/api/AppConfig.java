@@ -12,6 +12,8 @@ import org.springframework.security.crypto.password.Pbkdf2PasswordEncoder;
 import org.springframework.security.crypto.scrypt.SCryptPasswordEncoder;
 import org.springframework.web.filter.ShallowEtagHeaderFilter;
 
+import static kr.api.security.Constants.ENCODER_ID;
+
 @Configuration
 public class AppConfig {
 

@@ -4,11 +4,11 @@ import kr.api.entity.AddressEntity;
 import kr.api.entity.CardEntity;
 import kr.api.entity.UserEntity;
 import kr.api.entity.UserTokenEntity;
-import com.packt.modern.api.exception.GenericAlreadyExistsException;
+import kr.api.exception.GenericAlreadyExistsException;
 import kr.api.exception.InvalidRefreshTokenException;
-import com.packt.modern.api.model.RefreshToken;
-import com.packt.modern.api.model.SignedInUser;
-import com.packt.modern.api.model.User;
+import kr.api.model.RefreshToken;
+import kr.api.model.SignedInUser;
+import kr.api.model.User;
 import kr.api.repository.UserRepository;
 import kr.api.repository.UserTokenRepository;
 import kr.api.security.JwtManager;
@@ -27,10 +27,9 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-/**
- * @author : github.com/sharmasourabh
- * @project : Chapter08 - Modern API Development with Spring and Spring Boot
- **/
+/*
+* swagger 경로 => generated
+* */
 @Service
 public class UserServiceImpl implements UserService {
 

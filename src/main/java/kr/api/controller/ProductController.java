@@ -2,8 +2,8 @@ package kr.api.controller;
 
 import static org.springframework.http.ResponseEntity.ok;
 
-import com.packt.modern.api.ProductApi;
-import com.packt.modern.api.model.Product;
+import kr.api.ProductApi;
+import kr.api.model.Product;
 import kr.api.hateoas.ProductRepresentationModelAssembler;
 import kr.api.service.ProductService;
 import java.util.List;
@@ -12,10 +12,9 @@ import javax.validation.Valid;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RestController;
 
-/**
- * @author : github.com/sharmasourabh
- * @project : Chapter08 - Modern API Development with Spring and Spring Boot
- **/
+/*
+* swagger 경로 => generated
+* */
 @RestController
 public class ProductController implements ProductApi {
 

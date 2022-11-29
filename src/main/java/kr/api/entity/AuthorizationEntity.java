@@ -12,9 +12,6 @@ import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 /**
- * @author : github.com/sharmasourabh
- * @project : Chapter08 - Modern API Development with Spring and Spring Boot
- **/
 @Entity
 @Table(name = "authorization")
 public class AuthorizationEntity {

@@ -1,7 +1,7 @@
 package kr.api.service;
 
 import kr.api.entity.AddressEntity;
-import com.packt.modern.api.model.AddAddressReq;
+import kr.api.model.AddAddressReq;
 import java.util.Optional;
 
 

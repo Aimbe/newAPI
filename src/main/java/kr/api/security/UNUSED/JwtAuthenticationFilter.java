@@ -1,9 +1,9 @@
 package kr.api.security.UNUSED;
 
-import static com.packt.modern.api.security.Constants.AUTHORIZATION;
-import static com.packt.modern.api.security.Constants.ROLE_CLAIM;
-import static com.packt.modern.api.security.Constants.SECRET_KEY;
-import static com.packt.modern.api.security.Constants.TOKEN_PREFIX;
+import static kr.api.security.Constants.AUTHORIZATION;
+import static kr.api.security.Constants.ROLE_CLAIM;
+import static kr.api.security.Constants.SECRET_KEY;
+import static kr.api.security.Constants.TOKEN_PREFIX;
 
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.algorithms.Algorithm;
@@ -25,10 +25,9 @@ import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.web.authentication.www.BasicAuthenticationFilter;
 
-/**
- * @author : github.com/sharmasourabh
- * @project : Chapter08 - Modern API Development with Spring and Spring Boot
- **/
+/*
+* swagger 경로 => generated
+* */
 public class JwtAuthenticationFilter extends BasicAuthenticationFilter {
 
   public JwtAuthenticationFilter(AuthenticationManager authenticationManager) {

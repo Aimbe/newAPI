@@ -2,18 +2,17 @@ package kr.api.service;
 
 import kr.api.entity.CardEntity;
 import kr.api.entity.UserEntity;
-import com.packt.modern.api.model.AddCardReq;
-import com.packt.modern.api.repository.CardRepository;
+import kr.api.model.AddCardReq;
+import kr.api.repository.CardRepository;
 import kr.api.repository.UserRepository;
 import java.util.Optional;
 import java.util.UUID;
 import javax.validation.Valid;
 import org.springframework.stereotype.Service;
 
-/**
- * @author : github.com/sharmasourabh
- * @project : Chapter08 - Modern API Development with Spring and Spring Boot
- **/
+/*
+* swagger 경로 => generated
+* */
 @Service
 public class CardServiceImpl implements CardService {
   private CardRepository repository;

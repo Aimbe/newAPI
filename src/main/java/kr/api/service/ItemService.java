@@ -1,13 +1,12 @@
 package kr.api.service;
 
 import kr.api.entity.ItemEntity;
-import com.packt.modern.api.model.Item;
+import kr.api.model.Item;
 import java.util.List;
 
-/**
- * @author : github.com/sharmasourabh
- * @project : Chapter08 - Modern API Development with Spring and Spring Boot
- **/
+/*
+* swagger 경로 => generated
+* */
 public interface ItemService {
 
   ItemEntity toEntity(Item m);

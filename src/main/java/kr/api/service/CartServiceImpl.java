@@ -4,11 +4,11 @@ import static java.util.stream.Collectors.toList;
 import static org.springframework.objenesis.instantiator.util.UnsafeUtils.getUnsafe;
 
 import kr.api.entity.CartEntity;
-import com.packt.modern.api.entity.ItemEntity;
-import com.packt.modern.api.exception.CustomerNotFoundException;
-import com.packt.modern.api.exception.GenericAlreadyExistsException;
-import com.packt.modern.api.exception.ItemNotFoundException;
-import com.packt.modern.api.model.Item;
+import kr.api.entity.ItemEntity;
+import kr.api.exception.CustomerNotFoundException;
+import kr.api.exception.GenericAlreadyExistsException;
+import kr.api.exception.ItemNotFoundException;
+import kr.api.model.Item;
 import kr.api.repository.CartRepository;
 import kr.api.repository.UserRepository;
 import java.util.Collections;
@@ -20,10 +20,9 @@ import java.util.concurrent.atomic.AtomicReference;
 import javax.validation.Valid;
 import org.springframework.stereotype.Service;
 
-/**
- * @author : github.com/sharmasourabh
- * @project : Chapter08 - Modern API Development with Spring and Spring Boot
- **/
+/*
+* swagger 경로 => generated
+* */
 @Service
 public class CartServiceImpl implements CartService {
 

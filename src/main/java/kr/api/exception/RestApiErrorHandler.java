@@ -1,7 +1,6 @@
 package kr.api.exception;
 
-import static com.packt.modern.api.security.Constants.TOKEN_URL;
-
+import static kr.api.security.Constants.TOKEN_URL;
 import com.fasterxml.jackson.core.JsonParseException;
 import java.time.Instant;
 import java.util.Locale;

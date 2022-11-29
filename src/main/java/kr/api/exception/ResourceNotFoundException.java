@@ -1,9 +1,8 @@
 package kr.api.exception;
 
-/**
- * @author : github.com/sharmasourabh
- * @project : Chapter08 - Modern API Development with Spring and Spring Boot
- **/
+/*
+* swagger 경로 => generated
+* */
 public class ResourceNotFoundException extends RuntimeException {
 
   private static final long serialVersionUID = 1L;

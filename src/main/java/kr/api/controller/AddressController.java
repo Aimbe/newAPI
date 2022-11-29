@@ -5,11 +5,11 @@ import static org.springframework.http.ResponseEntity.notFound;
 import static org.springframework.http.ResponseEntity.ok;
 import static org.springframework.http.ResponseEntity.status;
 
-import com.packt.modern.api.AddressApi;
+import kr.api.AddressApi;
 import kr.api.entity.RoleEnum.Const;
 import kr.api.hateoas.AddressRepresentationModelAssembler;
-import com.packt.modern.api.model.AddAddressReq;
-import com.packt.modern.api.model.Address;
+import kr.api.model.AddAddressReq;
+import kr.api.model.Address;
 import kr.api.service.AddressService;
 import java.util.List;
 import javax.validation.Valid;

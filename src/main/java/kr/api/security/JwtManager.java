@@ -1,7 +1,7 @@
 package kr.api.security;
 
-import static com.packt.modern.api.security.Constants.EXPIRATION_TIME;
-import static com.packt.modern.api.security.Constants.ROLE_CLAIM;
+import static kr.api.security.Constants.EXPIRATION_TIME;
+import static kr.api.security.Constants.ROLE_CLAIM;
 import static java.util.stream.Collectors.toList;
 
 import com.auth0.jwt.JWT;

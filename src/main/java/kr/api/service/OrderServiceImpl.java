@@ -1,8 +1,8 @@
 package kr.api.service;
 
 import kr.api.entity.OrderEntity;
-import com.packt.modern.api.exception.ResourceNotFoundException;
-import com.packt.modern.api.model.NewOrder;
+import kr.api.exception.ResourceNotFoundException;
+import kr.api.model.NewOrder;
 import kr.api.repository.OrderRepository;
 import java.util.Objects;
 import java.util.Optional;
@@ -12,10 +12,9 @@ import javax.validation.constraints.NotNull;
 import org.apache.logging.log4j.util.Strings;
 import org.springframework.stereotype.Service;
 
-/**
- * @author : github.com/sharmasourabh
- * @project : Chapter08 - Modern API Development with Spring and Spring Boot
- **/
+/*
+* swagger 경로 => generated
+* */
 @Service
 public class OrderServiceImpl implements OrderService {
 

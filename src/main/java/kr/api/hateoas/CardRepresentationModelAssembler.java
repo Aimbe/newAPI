@@ -6,7 +6,7 @@ import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
 
 import kr.api.controller.CardController;
 import kr.api.entity.CardEntity;
-import com.packt.modern.api.model.Card;
+import kr.api.model.Card;
 import java.util.Collections;
 import java.util.List;
 import java.util.Objects;

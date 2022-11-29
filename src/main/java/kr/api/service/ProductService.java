@@ -6,10 +6,9 @@ import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
 import org.springframework.validation.annotation.Validated;
 
-/**
- * @author : github.com/sharmasourabh
- * @project : Chapter08 - Modern API Development with Spring and Spring Boot
- **/
+/*
+* swagger 경로 => generated
+* */
 @Validated
 public interface ProductService {
   @NotNull Iterable<ProductEntity> getAllProducts();

@@ -3,12 +3,12 @@ package kr.api.repository;
 import static java.util.stream.Collectors.toList;
 
 import kr.api.entity.CartEntity;
-import com.packt.modern.api.entity.ItemEntity;
+import kr.api.entity.ItemEntity;
 import kr.api.entity.OrderEntity;
 import kr.api.entity.OrderItemEntity;
-import com.packt.modern.api.exception.ResourceNotFoundException;
-import com.packt.modern.api.model.NewOrder;
-import com.packt.modern.api.model.Order.StatusEnum;
+import kr.api.exception.ResourceNotFoundException;
+import kr.api.model.NewOrder;
+import kr.api.model.Order.StatusEnum;
 import kr.api.service.ItemService;
 import java.math.BigDecimal;
 import java.sql.Timestamp;
@@ -26,10 +26,9 @@ import javax.transaction.Transactional;
 
 import org.springframework.stereotype.Repository;
 
-/**
- * @author : github.com/sharmasourabh
- * @project : Chapter08 - Modern API Development with Spring and Spring Boot
- **/
+/*
+* swagger 경로 => generated
+* */
 @Repository
 @Transactional
 public class OrderRepositoryImpl implements OrderRepositoryExt {

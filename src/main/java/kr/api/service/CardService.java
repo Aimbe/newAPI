@@ -1,14 +1,13 @@
 package kr.api.service;
 
 import kr.api.entity.CardEntity;
-import com.packt.modern.api.model.AddCardReq;
+import kr.api.model.AddCardReq;
 import java.util.Optional;
 import javax.validation.Valid;
 
-/**
- * @author : github.com/sharmasourabh
- * @project : Chapter08 - Modern API Development with Spring and Spring Boot
- **/
+/*
+* swagger 경로 => generated
+* */
 public interface CardService {
   public void deleteCardById(String id);
   public Iterable<CardEntity> getAllCards();

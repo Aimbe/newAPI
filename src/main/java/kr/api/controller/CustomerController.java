@@ -4,23 +4,22 @@ import static org.springframework.http.ResponseEntity.accepted;
 import static org.springframework.http.ResponseEntity.notFound;
 import static org.springframework.http.ResponseEntity.ok;
 
-import com.packt.modern.api.CustomerApi;
+import kr.api.CustomerApi;
 import kr.api.hateoas.AddressRepresentationModelAssembler;
 import kr.api.hateoas.CardRepresentationModelAssembler;
 import kr.api.hateoas.UserRepresentationModelAssembler;
-import com.packt.modern.api.model.Address;
-import com.packt.modern.api.model.Card;
-import com.packt.modern.api.model.User;
+import kr.api.model.Address;
+import kr.api.model.Card;
+import kr.api.model.User;
 import kr.api.service.UserService;
 import java.util.List;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RestController;
 
-/**
- * @author : github.com/sharmasourabh
- * @project : Chapter08 - Modern API Development with Spring and Spring Boot
- **/
+/*
+* swagger 경로 => generated
+* */
 @RestController
 public class CustomerController implements CustomerApi {
 

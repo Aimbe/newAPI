@@ -5,10 +5,10 @@ import static org.springframework.http.ResponseEntity.notFound;
 import static org.springframework.http.ResponseEntity.ok;
 import static org.springframework.http.ResponseEntity.status;
 
-import com.packt.modern.api.CardApi;
+import kr.api.CardApi;
 import kr.api.hateoas.CardRepresentationModelAssembler;
-import com.packt.modern.api.model.AddCardReq;
-import com.packt.modern.api.model.Card;
+import kr.api.model.AddCardReq;
+import kr.api.model.Card;
 import kr.api.service.CardService;
 import java.util.List;
 import javax.validation.Valid;

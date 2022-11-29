@@ -1,14 +1,13 @@
 package kr.api.service;
 
 import kr.api.entity.CartEntity;
-import com.packt.modern.api.model.Item;
+import kr.api.model.Item;
 import java.util.List;
 import javax.validation.Valid;
 
-/**
- * @author : github.com/sharmasourabh
- * @project : Chapter08 - Modern API Development with Spring and Spring Boot
- **/
+/*
+* swagger 경로 => generated
+* */
 public interface CartService {
 
   public List<Item> addCartItemsByCustomerId(String customerId, @Valid Item item);

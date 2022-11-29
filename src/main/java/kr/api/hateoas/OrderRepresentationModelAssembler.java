@@ -6,7 +6,7 @@ import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
 
 import kr.api.controller.OrderController;
 import kr.api.entity.OrderEntity;
-import com.packt.modern.api.model.Order;
+import kr.api.model.Order;
 import kr.api.service.ItemService;
 import java.time.ZoneOffset;
 import java.util.Collections;
@@ -18,10 +18,9 @@ import org.springframework.beans.BeanUtils;
 import org.springframework.hateoas.server.mvc.RepresentationModelAssemblerSupport;
 import org.springframework.stereotype.Component;
 
-/**
- * @author : github.com/sharmasourabh
- * @project : Chapter08 - Modern API Development with Spring and Spring Boot
- **/
+/*
+* swagger 경로 => generated
+* */
 @Component
 public class OrderRepresentationModelAssembler extends
     RepresentationModelAssemblerSupport<OrderEntity, Order> {

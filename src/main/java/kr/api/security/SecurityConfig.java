@@ -1,13 +1,13 @@
 package kr.api.security;
 
-import static com.packt.modern.api.security.Constants.API_URL_PREFIX;
-import static com.packt.modern.api.security.Constants.AUTHORITY_PREFIX;
-import static com.packt.modern.api.security.Constants.H2_URL_PREFIX;
-import static com.packt.modern.api.security.Constants.PRODUCTS_URL;
-import static com.packt.modern.api.security.Constants.REFRESH_URL;
-import static com.packt.modern.api.security.Constants.ROLE_CLAIM;
-import static com.packt.modern.api.security.Constants.SIGNUP_URL;
-import static com.packt.modern.api.security.Constants.TOKEN_URL;
+import static kr.api.security.Constants.API_URL_PREFIX;
+import static kr.api.security.Constants.AUTHORITY_PREFIX;
+import static kr.api.security.Constants.H2_URL_PREFIX;
+import static kr.api.security.Constants.PRODUCTS_URL;
+import static kr.api.security.Constants.REFRESH_URL;
+import static kr.api.security.Constants.ROLE_CLAIM;
+import static kr.api.security.Constants.SIGNUP_URL;
+import static kr.api.security.Constants.TOKEN_URL;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import kr.api.entity.RoleEnum;

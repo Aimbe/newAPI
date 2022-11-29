@@ -7,7 +7,7 @@ plugins {
 	id 'jacoco'
 }
 
-group = 'com.packt.modern.api'
+group = 'kr.api'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = JavaVersion.VERSION_17
 

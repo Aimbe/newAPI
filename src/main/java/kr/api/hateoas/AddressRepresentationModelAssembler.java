@@ -6,7 +6,7 @@ import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
 
 import kr.api.controller.AddressController;
 import kr.api.entity.AddressEntity;
-import com.packt.modern.api.model.Address;
+import kr.api.model.Address;
 import java.util.Collections;
 import java.util.List;
 import java.util.Objects;

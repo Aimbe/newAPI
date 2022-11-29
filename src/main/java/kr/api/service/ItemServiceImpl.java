@@ -2,19 +2,18 @@ package kr.api.service;
 
 import static java.util.stream.Collectors.toList;
 
-import com.packt.modern.api.entity.ItemEntity;
+import kr.api.entity.ItemEntity;
 import kr.api.entity.ProductEntity;
-import com.packt.modern.api.model.Item;
+import kr.api.model.Item;
 import java.util.Collections;
 import java.util.List;
 import java.util.Objects;
 import java.util.UUID;
 import org.springframework.stereotype.Service;
 
-/**
- * @author : github.com/sharmasourabh
- * @project : Chapter08 - Modern API Development with Spring and Spring Boot
- **/
+/*
+* swagger 경로 => generated
+* */
 @Service
 public class ItemServiceImpl implements ItemService {
 

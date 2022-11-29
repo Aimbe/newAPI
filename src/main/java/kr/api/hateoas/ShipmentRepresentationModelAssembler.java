@@ -6,7 +6,7 @@ import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
 
 import kr.api.controller.ShipmentController;
 import kr.api.entity.ShipmentEntity;
-import com.packt.modern.api.model.Shipment;
+import kr.api.model.Shipment;
 import java.util.Collections;
 import java.util.List;
 import java.util.Objects;
@@ -15,10 +15,9 @@ import org.springframework.beans.BeanUtils;
 import org.springframework.hateoas.server.mvc.RepresentationModelAssemblerSupport;
 import org.springframework.stereotype.Component;
 
-/**
- * @author : github.com/sharmasourabh
- * @project : Chapter08 - Modern API Development with Spring and Spring Boot
- **/
+/*
+* swagger 경로 => generated
+* */
 @Component
 public class ShipmentRepresentationModelAssembler extends
     RepresentationModelAssemblerSupport<ShipmentEntity, Shipment> {

@@ -1,9 +1,9 @@
 package kr.api.controller;
 
-import com.packt.modern.api.PaymentApi;
+import kr.api.PaymentApi;
 import kr.api.hateoas.PaymentRepresentationModelAssembler;
-import com.packt.modern.api.model.Authorization;
-import com.packt.modern.api.model.PaymentReq;
+import kr.api.model.Authorization;
+import kr.api.model.PaymentReq;
 import kr.api.service.PaymentService;
 import javax.validation.Valid;
 import javax.validation.constraints.NotNull;
@@ -11,10 +11,9 @@ import javax.validation.constraints.NotNull;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RestController;
 
-/**
- * @author : github.com/sharmasourabh
- * @project : Chapter08 - Modern API Development with Spring and Spring Boot
- **/
+/*
+* swagger 경로 => generated
+* */
 @RestController
 public class PaymentController implements PaymentApi {
 

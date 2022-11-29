@@ -4,13 +4,13 @@ import static org.springframework.http.ResponseEntity.accepted;
 import static org.springframework.http.ResponseEntity.ok;
 import static org.springframework.http.ResponseEntity.status;
 
-import com.packt.modern.api.UserApi;
+import kr.api.UserApi;
 import kr.api.entity.UserEntity;
 import kr.api.exception.InvalidRefreshTokenException;
-import com.packt.modern.api.model.RefreshToken;
-import com.packt.modern.api.model.SignInReq;
-import com.packt.modern.api.model.SignedInUser;
-import com.packt.modern.api.model.User;
+import kr.api.model.RefreshToken;
+import kr.api.model.SignInReq;
+import kr.api.model.SignedInUser;
+import kr.api.model.User;
 import kr.api.service.UserService;
 import javax.validation.Valid;
 
@@ -20,10 +20,9 @@ import org.springframework.security.authentication.InsufficientAuthenticationExc
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.RestController;
 
-/**
- * @author : github.com/sharmasourabh
- * @project : Chapter08 - Modern API Development with Spring and Spring Boot
- **/
+/*
+* swagger 경로 => generated
+* */
 @RestController
 public class AuthController implements UserApi {
 

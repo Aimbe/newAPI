@@ -1,6 +1,6 @@
 package kr.api.entity;
 
-import com.packt.modern.api.model.Order.StatusEnum;
+import kr.api.model.Order.StatusEnum;
 import java.math.BigDecimal;
 import java.sql.Timestamp;
 import java.util.Collections;
@@ -21,10 +21,9 @@ import javax.persistence.ManyToOne;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
-/**
- * @author : github.com/sharmasourabh
- * @project : Chapter08 - Modern API Development with Spring and Spring Boot
- **/
+/*
+* swagger 경로 => generated
+* */
 @Entity
 @Table(name = "orders")
 public class OrderEntity {
