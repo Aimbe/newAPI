@@ -1,7 +1,4 @@
 package com.packt.modern.api;
-
-import static com.packt.modern.api.security.Constants.ENCODER_ID;
-
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
