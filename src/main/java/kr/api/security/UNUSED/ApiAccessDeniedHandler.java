@@ -25,9 +25,11 @@ public class ApiAccessDeniedHandler implements AccessDeniedHandler {
 
   private ObjectMapper mapper;
 
+  //handler 매핑
   public ApiAccessDeniedHandler(ObjectMapper mapper) {
     this.mapper = mapper;
   }
+
 
   @Override
   public void handle(HttpServletRequest req, HttpServletResponse res,

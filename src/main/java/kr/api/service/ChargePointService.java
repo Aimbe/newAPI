@@ -7,6 +7,6 @@ public interface ChargePointService {
     public void createChargePoint();
     public void deleteChargePointById(String id);
     //Iterable , Optional 차이 정리
-//    public Iterable<ChargePointEntity> getAllChargerPoint();
-//    public Optional<ChargePointEntity> getChargePointById();
+    public Iterable<ChargePointEntity> getAllChargerPoint();
+    public Optional<ChargePointEntity> getChargePointById();
 }
