@@ -14,9 +14,6 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
 import org.springframework.web.servlet.HandlerExceptionResolver;
 
-/*
-* swagger 경로 => generated
-* */
 
 @Component
 public class FilterChainFailureHandler extends OncePerRequestFilter {

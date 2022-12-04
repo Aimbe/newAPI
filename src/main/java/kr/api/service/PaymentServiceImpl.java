@@ -10,9 +10,7 @@ import javax.validation.Valid;
 import javax.validation.constraints.NotNull;
 import org.springframework.stereotype.Service;
 
-/*
-* swagger 경로 => generated
-* */
+
 @Service
 public class PaymentServiceImpl implements PaymentService {
 

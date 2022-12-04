@@ -4,9 +4,7 @@ import kr.api.entity.ItemEntity;
 import kr.api.model.Item;
 import java.util.List;
 
-/*
-* swagger 경로 => generated
-* */
+
 public interface ItemService {
 
   ItemEntity toEntity(Item m);

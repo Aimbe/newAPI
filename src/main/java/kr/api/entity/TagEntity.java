@@ -9,9 +9,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 import javax.validation.constraints.NotNull;
 
-/*
-* swagger 경로 => generated
-* */
+
 @Entity
 @Table(name = "tag")
 public class TagEntity {

@@ -12,9 +12,7 @@ import javax.validation.constraints.NotNull;
 import org.apache.logging.log4j.util.Strings;
 import org.springframework.stereotype.Service;
 
-/*
-* swagger 경로 => generated
-* */
+
 @Service
 public class OrderServiceImpl implements OrderService {
 

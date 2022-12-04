@@ -26,9 +26,7 @@ import javax.transaction.Transactional;
 
 import org.springframework.stereotype.Repository;
 
-/*
-* swagger 경로 => generated
-* */
+
 @Repository
 @Transactional
 public class OrderRepositoryImpl implements OrderRepositoryExt {

@@ -5,9 +5,7 @@ import kr.api.model.AddCardReq;
 import java.util.Optional;
 import javax.validation.Valid;
 
-/*
-* swagger 경로 => generated
-* */
+
 public interface CardService {
   public void deleteCardById(String id);
   public Iterable<CardEntity> getAllCards();

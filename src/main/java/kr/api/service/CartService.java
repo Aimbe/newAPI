@@ -5,9 +5,7 @@ import kr.api.model.Item;
 import java.util.List;
 import javax.validation.Valid;
 
-/*
-* swagger 경로 => generated
-* */
+
 public interface CartService {
 
   public List<Item> addCartItemsByCustomerId(String customerId, @Valid Item item);

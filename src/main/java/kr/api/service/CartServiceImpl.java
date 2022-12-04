@@ -20,9 +20,7 @@ import java.util.concurrent.atomic.AtomicReference;
 import javax.validation.Valid;
 import org.springframework.stereotype.Service;
 
-/*
-* swagger 경로 => generated
-* */
+
 @Service
 public class CartServiceImpl implements CartService {
 

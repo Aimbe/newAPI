@@ -15,9 +15,7 @@ import javax.persistence.ManyToMany;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
-/*
-* swagger 경로 => generated
-* */
+
 @Entity
 @Table(name = "cart")
 public class CartEntity {

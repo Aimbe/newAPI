@@ -12,9 +12,7 @@ import javax.validation.Valid;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RestController;
 
-/*
-* swagger 경로 => generated
-* */
+
 @RestController
 public class ProductController implements ProductApi {
 

@@ -8,9 +8,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-/*
-* swagger 경로 => generated
-* */
+
 @Entity
 @Table(name = "shipment")
 public class ShipmentEntity {

@@ -17,9 +17,7 @@ import org.springframework.beans.BeanUtils;
 import org.springframework.hateoas.server.mvc.RepresentationModelAssemblerSupport;
 import org.springframework.stereotype.Component;
 
-/*
-* swagger 경로 => generated
-* */
+
 @Component
 public class CartRepresentationModelAssembler extends
     RepresentationModelAssemblerSupport<CartEntity, Cart> {

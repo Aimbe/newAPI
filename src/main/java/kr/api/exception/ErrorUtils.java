@@ -1,8 +1,6 @@
 package kr.api.exception;
 
-/*
-* swagger 경로 => generated
-* */
+
 public class ErrorUtils {
 
   private ErrorUtils() {

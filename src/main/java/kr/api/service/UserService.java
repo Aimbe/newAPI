@@ -8,9 +8,7 @@ import kr.api.model.SignedInUser;
 import kr.api.model.User;
 import java.util.Optional;
 
-/*
-* swagger 경로 => generated
-* */
+
 public interface UserService {
 
   void deleteCustomerById(String id);

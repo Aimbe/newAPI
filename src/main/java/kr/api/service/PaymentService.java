@@ -6,9 +6,7 @@ import java.util.Optional;
 import javax.validation.Valid;
 import javax.validation.constraints.NotNull;
 
-/*
-* swagger 경로 => generated
-* */
+
 public interface PaymentService {
 
   public Optional<AuthorizationEntity> authorize(@Valid PaymentReq paymentReq);

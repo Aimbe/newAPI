@@ -1,8 +1,6 @@
 package kr.api.exception;
 
-/*
-* swagger 경로 => generated
-* */
+
 public class ItemNotFoundException extends Throwable {
 
   private static final long serialVersionUID = 1L;

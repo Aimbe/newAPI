@@ -11,9 +11,7 @@ import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 import javax.validation.constraints.NotNull;
 
-/*
-* swagger 경로 => generated
-* */
+
 @Entity
 @Table(name = "user_token")
 public class UserTokenEntity {

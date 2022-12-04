@@ -25,9 +25,7 @@ import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.web.authentication.www.BasicAuthenticationFilter;
 
-/*
-* swagger 경로 => generated
-* */
+
 public class JwtAuthenticationFilter extends BasicAuthenticationFilter {
 
   public JwtAuthenticationFilter(AuthenticationManager authenticationManager) {

@@ -10,9 +10,7 @@ import java.util.UUID;
 import javax.validation.Valid;
 import org.springframework.stereotype.Service;
 
-/*
-* swagger 경로 => generated
-* */
+
 @Service
 public class CardServiceImpl implements CardService {
   private CardRepository repository;

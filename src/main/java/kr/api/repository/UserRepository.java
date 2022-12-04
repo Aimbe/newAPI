@@ -6,9 +6,7 @@ import java.util.UUID;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 
-/*
-* swagger 경로 => generated
-* */
+
 public interface UserRepository extends CrudRepository<UserEntity, UUID> {
 
   Optional<UserEntity> findByUsername(String username);

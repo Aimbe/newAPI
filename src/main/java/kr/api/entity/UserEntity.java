@@ -19,9 +19,7 @@ import javax.persistence.OneToOne;
 import javax.persistence.Table;
 import javax.validation.constraints.NotNull;
 
-/*
-* swagger 경로 => generated
-* */
+
 @Entity
 @Table(name = "user")
 public class UserEntity {

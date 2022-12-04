@@ -10,9 +10,7 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-/*
-* swagger 경로 => generated
-* */
+
 @Service
 public class UserDetailServiceImpl implements UserDetailsService {
 

@@ -11,9 +11,7 @@ import java.util.Objects;
 import java.util.UUID;
 import org.springframework.stereotype.Service;
 
-/*
-* swagger 경로 => generated
-* */
+
 @Service
 public class ItemServiceImpl implements ItemService {
 

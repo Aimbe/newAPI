@@ -20,9 +20,7 @@ import org.springframework.security.authentication.InsufficientAuthenticationExc
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.RestController;
 
-/*
-* swagger 경로 => generated
-* */
+
 @RestController
 public class AuthController implements UserApi {
 

@@ -7,9 +7,7 @@ import java.util.UUID;
 import javax.validation.constraints.Min;
 import org.springframework.stereotype.Service;
 
-/*
-* swagger 경로 => generated
-* */
+
 @Service
 public class ShipmentServiceImpl implements ShipmentService {
 

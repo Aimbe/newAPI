@@ -8,9 +8,7 @@ import javax.persistence.Id;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
-/*
-* swagger 경로 => generated
-* */
+
 @Entity
 @Table(name = "payment")
 public class PaymentEntity {

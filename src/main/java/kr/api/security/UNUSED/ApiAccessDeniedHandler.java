@@ -19,9 +19,7 @@ import org.springframework.security.access.AccessDeniedException;
 import org.springframework.security.web.access.AccessDeniedHandler;
 import org.springframework.stereotype.Component;
 
-/*
-* swagger 경로 => generated
-* */
+
 @Component
 public class ApiAccessDeniedHandler implements AccessDeniedHandler {
 
