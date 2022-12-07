@@ -2,7 +2,7 @@ package kr.api.service;
 
 import java.util.Optional;
 
-public class ChargePointServiceImpl implements ChargePointService {
+//public class ChargePointServiceImpl implements ChargePointService {
 
 ////    @Override
 ////    public void createChargePoint() {
