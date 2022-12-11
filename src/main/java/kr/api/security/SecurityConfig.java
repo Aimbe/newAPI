@@ -59,6 +59,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
   private final Logger LOG = LoggerFactory.getLogger(getClass());
   private UserDetailsService userService;
   private PasswordEncoder bCryptPasswordEncoder;
+  //unused?
   private ApiAccessDeniedHandler accessDeniedHandler;
   private ApiAuthenticationEntryPoint authenticationEntryPoint;
   private FilterChainFailureHandler failureHandler;
