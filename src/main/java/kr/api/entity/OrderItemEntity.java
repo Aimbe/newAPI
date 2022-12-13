@@ -8,10 +8,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-/**
- * @author : github.com/sharmasourabh
- * @project : Chapter05 - Modern API Development with Spring and Spring Boot
- **/
+
 @Entity
 @Table(name = "order_item")
 public class OrderItemEntity {
