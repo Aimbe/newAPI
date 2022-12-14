@@ -2,16 +2,14 @@ package kr.api.entity;
 
 import java.util.Objects;
 import java.util.UUID;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 
 @Entity
 @Table(name = "order_item")
 public class OrderItemEntity {
+
+
 
   @Id
   @GeneratedValue

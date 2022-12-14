@@ -2,6 +2,7 @@ package kr.api.repository;
 
 import static java.util.stream.Collectors.toList;
 
+import com.querydsl.jpa.impl.JPAQueryFactory;
 import kr.api.entity.CartEntity;
 import kr.api.entity.ItemEntity;
 import kr.api.entity.OrderEntity;
@@ -34,6 +35,7 @@ public class OrderRepositoryImpl implements OrderRepositoryExt {
   @PersistenceContext
   private EntityManager em;
 
+  private final JPAQueryFactory jpaQueryFactory;
   private ItemRepository itemRepo;
   private AddressRepository aRepo;
   private CartRepository cRepo;
