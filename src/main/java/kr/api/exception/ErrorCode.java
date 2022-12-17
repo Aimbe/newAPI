@@ -17,7 +17,13 @@ public enum ErrorCode {
   ITEM_NOT_FOUND("PACKT-0012", "Requested item not found."),
   GENERIC_ALREADY_EXISTS("PACKT-0013", "Already exists."),
   ACCESS_DENIED("PACKT-0014", "Access Denied."),
-  UNAUTHORIZED("PACKT-0015", "Unauthorized");
+  UNAUTHORIZED("PACKT-0015", "Unauthorized"),
+
+  DUPLICATED("JAYEV-0001","duplicated"),
+
+  DB_DISCONNECTED("JAYEV-0002","db_disconnected");
+
+
 
   private String errCode;
   private String errMsgKey;

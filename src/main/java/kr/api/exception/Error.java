@@ -6,7 +6,7 @@ import org.apache.logging.log4j.util.Strings;
 
 public class Error {
 
-  //에러 객체 정의
+  //TODO 에러 객체 정의, UID 구분 삭제
   private static final long serialVersionUID = 1L;
   /**
    * Application error code, which is different from HTTP error code.
