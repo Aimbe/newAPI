@@ -16,6 +16,7 @@ import org.springframework.hateoas.server.mvc.RepresentationModelAssemblerSuppor
 import org.springframework.stereotype.Component;
 
 
+//hateoas RESTFUL 사용 보류
 @Component
 public class ShipmentRepresentationModelAssembler extends
     RepresentationModelAssemblerSupport<ShipmentEntity, Shipment> {

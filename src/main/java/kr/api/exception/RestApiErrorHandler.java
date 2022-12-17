@@ -282,4 +282,17 @@ public class RestApiErrorHandler {
         .setTimestamp(Instant.now());
     return new ResponseEntity<>(error, HttpStatus.NOT_ACCEPTABLE);
   }
+
+  @ExceptionHandler(JsonParseException.class)
+  public ResponseEntity<Error> duplicatedCaseException(HttpServletRequest request,
+                                                        DuplicatedRequestException ex,
+                                                        Locale locale) {
+    Error error = ErrorUtils
+            .createError(ErrorCode.DUPLICATED.getErrMsgKey(),
+                    ErrorCode.DUPLICATED.getErrCode(),
+                    HttpStatus.CONFLICT.value()).setUrl(request.getRequestURL().toString())
+            .setReqMethod(request.getMethod())
+            .setTimestamp(Instant.now());
+    return new ResponseEntity<>(error, HttpStatus.CONFLICT);
+  }
 }
