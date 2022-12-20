@@ -35,7 +35,7 @@ public class OrderRepositoryImpl implements OrderRepositoryExt {
   @PersistenceContext
   private EntityManager em;
 
-  private final JPAQueryFactory jpaQueryFactory;
+  private JPAQueryFactory jpaQueryFactory;
   private ItemRepository itemRepo;
   private AddressRepository aRepo;
   private CartRepository cRepo;
@@ -50,6 +50,10 @@ public class OrderRepositoryImpl implements OrderRepositoryExt {
     this.cRepo = cRepo;
     this.oiRepo = oiRepo;
     this.itemService = itemService;
+  }
+
+  public void test(){
+    jpaQueryFactory = new JPAQueryFactory(OrderEntity);
   }
 
   @Override
