@@ -201,6 +201,20 @@ public class RestApiErrorHandler {
     return new ResponseEntity<>(error, HttpStatus.NOT_FOUND);
   }
 
+  @ExceptionHandler(BussinessException.class)
+  public ResponseEntity<Error> BussinessException(
+          HttpServletRequest request,
+          InvalidRefreshTokenException ex,
+          Locale locale) {
+    String errorMsg = String.format("%s %s",ErrorCode.RESOURCE_NOT_FOUND.getErrMsgKey(), ex.getMessage());
+    Error error = ErrorUtils
+            .createError(errorMsg, ErrorCode.RESOURCE_NOT_FOUND.getErrCode(),
+                    HttpStatus.NOT_FOUND.value()).setUrl(request.getRequestURL().toString())
+            .setReqMethod(request.getMethod())
+            .setTimestamp(Instant.now());
+    return new ResponseEntity<>(error, HttpStatus.NOT_FOUND);
+  }
+
   /*@ExceptionHandler(ConstraintViolationException.class)
   public ResponseEntity<Error> handleConstraintViolationException(HttpServletRequest request,
       ConstraintViolationException ex, Locale locale) {
